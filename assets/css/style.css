@@ -45,7 +45,7 @@ nav a {
 
 .mountains {
     background-image: url(https://images.unsplash.com/photo-1658258338048-c7f6c9d9330d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1229&q=80);
-    height: 765px;
+    height: 750px;
     width: 100%;
     border-bottom: solid var(--inter) var(--border);
 }
@@ -55,8 +55,8 @@ nav a {
     position: absolute;
     top: 100px;
     left: 50px;
-    width: 30%;
-    height: 320px;
+    width: 320px;
+    height: 348px;
     
 }
 
@@ -64,7 +64,7 @@ h2 {
     font-size: 170%;
     position: relative;
     left: -17%;
-    top: 10%;
+    top: 30px;
 }
 
 main {
@@ -72,10 +72,14 @@ main {
 }
 
 #contact li {
-    display: inline;
+    
 }
 
-#about, #projects, #contact {
+nav li:hover {
+    background-color: white;
+}
+
+.main {
     position: relative;
     left: 20%;
     border-left: solid var(--main-color) var(--border);
