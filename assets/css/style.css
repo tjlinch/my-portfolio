@@ -3,14 +3,16 @@
 }
 
 body {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 header {
-    background-color: #405d27;
+    background-color: #30373f;
+    height: 50px;
+    border-bottom: solid #40b8ff 3px;
 }
 h1 {
-    color: #3b3a30;
+    color: #40b8ff;
     font-size: 180%;
 }
 nav {
@@ -22,5 +24,15 @@ nav li{
 }
 nav a {
     text-decoration: none;
-    color: white;
+    color: #77dcff;
+}
+
+#about, #projects, #contact {
+    position: relative;
+    left: 20%;
+    border-left: solid #40b8ff 5px;
+}
+
+@media and screen {
+
 }
