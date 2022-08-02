@@ -13,7 +13,15 @@ header {
 }
 h1 {
     color: #40b8ff;
-    font-size: 180%;
+    font-size: 200%;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 170%;
+    position: relative;
+    left: -15%;
+    top: 10%;
 }
 nav {
     display: flex;
@@ -25,6 +33,10 @@ nav li{
 nav a {
     text-decoration: none;
     color: #77dcff;
+}
+
+#contact li {
+    display: inline;
 }
 
 #about, #projects, #contact {
