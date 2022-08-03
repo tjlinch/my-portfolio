@@ -105,10 +105,10 @@ h2 {
 
 .project-placeholders {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .project-placeholders article {
-    width: 45%;
     margin-left: 5%;
     margin-bottom: 20px;
 }
@@ -124,7 +124,7 @@ h2 {
     text-decoration: none;
     font-size: 180%;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     border-radius: 40px 40px 0 0;
 }
 .contactInfo {
@@ -163,7 +163,7 @@ footer h4 {
 }
 
 nav li:hover {
-    background-color: var(--light);
+    background-color: white;
     color: var(--main-color);
     border-radius: 4px;
 }
@@ -178,7 +178,32 @@ nav li:hover {
     color: var(--dark);
 }
 
-@media and screen {
+@media screen and (max-width: 1045px) {
+    header {
+        background-color: var(--main-color)
+    }
+    header h1, header nav a {
+        color: var(--dark);
+    }
+    h2{
+        font-size: 125%;
+    }
+} 
 
+@media screen and (max-width: 720px) {
+    header {
+        background-color: white;
+    }
+    nav {
+        position: relative;
+        bottom: -32px;
+    }
+    h2{
+        left: 5%;
+    }
+    .contactInfo ul {
+        position: relative;
+        left: 75px;
+    }
+    
 }
-
