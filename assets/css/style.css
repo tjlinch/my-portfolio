@@ -194,16 +194,27 @@ nav li:hover {
     header {
         background-color: white;
     }
+    header h1{
+        color: var(--main-color);
+    }
     nav {
         position: relative;
         bottom: -32px;
+        right: 10%;
     }
     h2{
         left: 5%;
+    }
+    .mountains, header {
+        width: 108%;
     }
     .contactInfo ul {
         position: relative;
         left: 75px;
     }
+    footer {
+        width: 145%;
+    }
+    
     
 }
