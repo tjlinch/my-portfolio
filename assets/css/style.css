@@ -1,6 +1,3 @@
-* {
-
-}
 
 :root {
     --dark: #30373f;
@@ -11,8 +8,6 @@
     --border: 3px
 }
 
-
-
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: var(--light);
@@ -20,12 +15,12 @@ body {
 
 header {
     background-color: var(--dark);
-    height: 50px;
+    height: 62px;
     border-bottom: solid var(--inter) var(--border);
 }
 h1 {
     color: var(--main-color);
-    font-size: 200%;
+    font-size: 250%;
     font-weight: 600;
 }
 
@@ -35,6 +30,11 @@ nav {
 }
 nav li{
     display: inline;
+    font-size: 150%;
+    margin: 4px;
+    position: relative;
+    bottom: 4px;
+    
 }
 nav a {
     text-decoration: none;
@@ -62,35 +62,89 @@ main {
     width: 75%;
 }
 
+.main {
+    position: relative;
+    left: 20%;
+    border-left: solid var(--main-color) var(--border);
+    margin-top: 10px;
+}
+
 h2 {
     font-size: 170%;
     position: relative;
     left: -17%;
-    top: 30px;
     width: 15%;
+    color: var(--main-color)
+}
+
+.about {
+    margin-left: 5%;
+    margin-bottom: 20px;
 }
 
 #project1 {
     width: 90%;
+    margin-left: 5%;
+    margin-bottom: 20px;
 }
 
 #project1 img {
     width: 100%;
 }
 
-#contact li {
-    
+#project1 a {
+    background-color: var(--inter);
+    color: var(--second-color);
+    text-decoration: none;
+    font-size: 230%;
+    display: flex;
+    justify-content: center;
+    border-radius: 40px 40px 0 0;
+}
+
+.project-placeholders {
+    width: 45%;
+    margin-left: 5%;
+    margin-bottom: 20px;
+}
+
+.project-placeholders img {
+    width: 100%;
+}
+
+.project-placeholders a {
+    background-color: var(--inter);
+    color: var(--second-color);
+    text-decoration: none;
+    font-size: 180%;
+    display: flex;
+    justify-content: center;
+    border-radius: 40px 40px 0 0;
+}
+.contactInfo {
+    display: flex;
+    position: relative;
+    left: 20%;
+    border-left: solid var(--main-color) var(--border);
+    margin-top: 10px;
+}
+
+.contactInfo li {
+    display: inline;
+}
+
+.contactInfo a {
+    font-size: 130%;
+    margin: 38px;
 }
 
 nav li:hover {
     background-color: white;
 }
 
-.main {
-    position: relative;
-    left: 20%;
-    border-left: solid var(--main-color) var(--border);
-    margin-top: 10px;
+#project1 a:hover, .project-placeholders a:hover {
+    background-color: var(--second-color);
+    color: var(--inter);
 }
 
 @media and screen {
