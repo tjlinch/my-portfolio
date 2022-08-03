@@ -41,8 +41,6 @@ nav a {
     color: var(--second-color);
 }
 
-
-
 .mountains {
     background-image: url(https://images.unsplash.com/photo-1658258338048-c7f6c9d9330d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1229&q=80);
     height: 750px;
@@ -60,6 +58,10 @@ nav a {
     
 }
 
+main {
+    width: 75%;
+}
+
 h2 {
     font-size: 170%;
     position: relative;
@@ -68,8 +70,12 @@ h2 {
     width: 15%;
 }
 
-main {
+#project1 {
+    width: 90%;
+}
 
+#project1 img {
+    width: 100%;
 }
 
 #contact li {
